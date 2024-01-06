@@ -1,0 +1,85 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details Of A User</title>
+    <style>
+   h1{
+    background-color: aquamarine;
+    text-align: center;
+   }
+   div{
+    color: rgb(127, 136, 255);
+    background-color: azure;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+   }
+    </style>
+</head>
+<body>
+    <h1>User Details</h1>
+    <form action=" " method=" " > 
+        <div>
+            <fieldset>
+                <legend>User Details</legend>
+           <label for="firstname">Firstname:</label>
+           <input type="text" id="firstname" name="firstname"><br>
+           <label for="lastname">Lastname:</label>
+           <input type="text" id="lastname" name="lastname"><br>
+           <label for="email">Email:</label>
+           <input type="email" id="email" name="email"><br>
+           <label for="phoneno">Phone No:</label>
+           <input type="text" id="phoneno" name="phoneno"><br>
+            </fieldset><br><br>
+            <fieldset>
+                <legend>Personal Details</legend>
+           <label for="Address1" >Address Lane1:</label>
+           <input type="text" id="Address1" name="addr1" required ><br>
+           <label for="Address2">Address Lane2:</label>
+           <input type="text" id="Address2" name="addr2"><br>
+           <label for="pincode">Zipcode:</label>
+           <input type="text" id="pincode" name="pincode"><br>
+           <label for="aadhar">Aadhar No:</label>
+           <input type="text" id="aadhar" name="aadhar"><br>
+           
+            </fieldset><br><br>
+            <fieldset>
+                <legend>Professional Details</legend>
+
+      
+            <label for="education-details">Educational Details   </label>
+               <input type="text" id="educationdetails" name="educational details" >
+               <select name="branch" id="branch">
+                <option value="cyber security">CS</option>
+                <option value="CSE">CSE</option>
+                <option value="ECE">ECE</option>
+               </select>
+               <select name="year" id="year">
+                <option value="1st year">1styear</option>
+                <option value="2nd year">2ndyear</option>
+                <option value="3rd year">3rdyear</option>
+                <option value="4th year">4rdyear</option>
+               </select><br>
+               <label for="rollno">College Id:   </label>
+               <input type="text" id="rollno" name="rollno" >
+               <p>Enter Your Known Technologies </p>
+              <input type="radio" id="html" value="html">
+              <label for="html">Html</label> 
+              <input type="radio" id="css" value="css">
+              <label for="css">Css</label> 
+              <input type="radio" id="javascript" value="javascript">
+              <label for="javascript">JavaScript</label> <br>
+              <label for="projects">Project Done:</label>
+              <input type="text" id="projects" name="projects"><br>
+              <label for="internship">Internship Experience:</label>
+              <input type="text" id="internship" name="internship">
+             
+            </fieldset>
+            <br>
+            <input type="submit">
+        </div>
+    </form>
+
+    
+</body>
+</html>
