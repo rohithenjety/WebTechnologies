@@ -1,0 +1,115 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class_timetable</title>
+    <style>
+        h1{
+            color: blueviolet;
+            background-color: aqua;
+            text-align: center;
+            
+        }
+        table ,tr, td,th{
+            text-align: center;
+            align-content: center;
+           border: 5px solid black;
+           width: 10px;
+           height: 5px;
+           border-collapse: collapse;
+           
+        }
+        body{
+            margin: 3%;
+            align-items: center;
+            justify-content: center;
+           
+        }
+        td,th{
+            padding: 20px
+           
+        }
+        th{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: 600;
+            font-size: large;
+        }
+        td{
+            font-size: large;
+            font-weight: 500;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        th:nth-child(odd){
+            background-color: gray;
+        }
+        th:nth-child(even){
+            background-color: gray;
+        }
+        .vertical{
+         writing-mode: vertical-rl;
+        text-orientation: upright;
+        font-size: x-large;
+        }
+         
+     
+
+    </style>
+</head>
+<body>
+    <h1> Class TimeTable</h1>
+    <table>
+        <tr>
+            <th>Day <br>/hr</th>
+        <th>10:30 <br>to <br>11:20</th>
+        <th>11:20 <br>to <br>12:10</th>
+        <th>12:10 <br>to <br>01:00</th>
+        <th rowspan="6" class="vertical"> <p>LUNCH BREAK</p></th>
+        <th>02:15 <br>to <br>03:05</th>        
+        <th>03:05 <br>to <br> 03:55</th>
+        <th>03:55 <br> to <br> 04:45</th>
+        </tr>
+        <tr>
+            <td style="background-color: grey;" >Mon</th>
+            <td colspan="3" >BashLab <br>Room No: 510    </td>
+            <td> WT</td>
+            <td> ML</td>
+            <td> PBEA</td>
+        </tr>
+        <tr>
+            <td style="background-color: grey;">TUE</td>
+            <td colspan="3">DF LAB <br> Room No : 408-A</td>
+            <td>FoE</td>
+            <td>AWSN</td>
+            <td>WT</td> 
+        </tr>
+        <tr>
+            <td style="background-color: grey;">WED</td>
+            <td>FoE</td>
+            <td>ML</td>
+            <td>LIB</td>
+            <td>PBEA</td>
+            <td>MPI</td>
+            <td>DF</td>
+        </tr>
+        <tr>
+            <td style="background-color: grey;">THU</td>
+            <td>WT</td>
+            <td>ML</td>
+            <td>AWSN</td>
+            <td>PBEA</td>
+            <td>DF</td>
+            <td>MPI</td>
+        </tr>
+        <tr>
+            <td style="background-color: grey;">FRI</td>
+            <td colspan="3">WT LAB <br> Room No: 511</td>
+            <td>MPI</td>
+            <td>DF</td>
+            <td>AWSN</td>
+        </tr>
+
+       
+    </table>
+
+</body>
+</html>
