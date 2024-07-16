@@ -1,0 +1,389 @@
+
+
+.header
+{
+    display: flex;
+}
+.header2
+{
+    width: 70%;
+    padding-left: 100px;
+    
+}
+.header3 a
+{
+    text-decoration: none;
+    color: black;
+}
+.header3 span
+{
+    color: red;
+    font-size: x-large;
+    font-weight: bolder;
+}
+.headerimage
+{
+    
+    margin: auto;
+    width: 30%;
+   
+}
+.headerimage img
+{
+    vertical-align: middle;
+    width: 200;
+    height: 160;
+    padding-left: 200px;
+}
+.header4
+{
+    font-size: x-large;
+}
+.header5
+{
+    display: inline-flex;
+}
+.header6
+{
+    width: 50%;
+    animation: fadeAnimation 3s ease infinite;
+}
+
+@keyframes fadeAnimation {
+    0%, 100% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
+
+
+.header6 p span{
+    color: red;
+    font-size: x-large;
+}
+.header7 img
+{
+    height: 50px;
+}
+.header7{
+    padding-left: 10px;
+}
+.navbar
+{
+    margin: 10px;
+    background-color: #27334f;
+    width: 100%;
+    height: 30px;
+  align-content: center;
+  justify-content: center;
+  padding-left: 250px;
+ 
+}
+nav 
+{
+    margin: 10px;
+    display: flex;
+  
+    margin-top: 0px;
+
+    
+}
+.navbar a{
+    padding-top: 0px;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    justify-content: center;
+    color: antiquewhite;
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 0px;
+    border-left: 1px solid red;
+}
+
+.one #two
+{
+    padding-left: 300px;
+    color: #27334f;
+    display: flex;
+}
+.one #three
+{
+    color: red;
+    
+}
+.image img
+{
+    width: 100%;
+
+}
+.content-right
+{
+    width: 70%;
+    border: 1px solid rgb(245, 5, 5);
+}
+.content
+{
+   padding-left: 100px;
+   padding-right: 100px;
+   padding-top: 50px;
+    display: flex;
+}
+.content-left
+{
+    width: 30%;
+   
+    text-align: center;
+    padding-right: 10px;
+}
+.sub-content-left img
+{
+    height: 150px;
+    text-align: justify;
+    align-items: center;
+}
+.sub-content-left
+{
+    margin: 20px;
+    border: 1px solid rgb(238, 5, 5);
+}
+.sub-content-right
+{
+    margin: 10px;
+}
+#text2
+{
+    text-align: center;
+}
+.sub-content-left {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 10px; /* Add rounded corners to the container */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+    transition: box-shadow 0.3s ease; /* Add transition effect on box shadow */
+}
+
+.sub-content-left:hover {
+    background-color: #27334f;
+    color: white;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2); /* Change box shadow on hover */
+}
+
+figure {
+    margin: 0;
+}
+
+#changingImage    {
+    height: auto;
+    width: 100%;
+    border-radius: 8px; /* Add rounded corners to the image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow to the image */
+    transition: box-shadow 0.3s ease; /* Add transition effect on image box shadow */
+}
+
+#qwerthover {
+    transform: scale(1.2);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Change image box shadow on hover */
+}
+
+figcaption {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#text2 {
+    display: block;
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+#text2::before {
+    content: '\201C';
+    font-size: 24px;
+    color: #333;
+    margin-right: 5px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+#text2::after {
+    content: '\201D';
+    font-size: 24px;
+    color: #333;
+    margin-left: 5px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+#text2:hover {
+    color: #007bff;
+    transition: color 0.3s ease;
+}
+
+
+.content-right {
+    display: flex;
+    flex-direction: column; /* Display the divisions as columns */
+    gap: 20px;
+    border-radius: 5px;
+}
+
+.sub-content-right {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    margin-bottom: 20px; /* Add margin between divisions */
+}
+
+.sub-content-right:hover {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+}
+
+header {
+    background-color: rgb(240, 39, 39);
+    color: aliceblue;
+    height: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 30px;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding: 10px;
+    
+    transition: background-color 0.3s ease;
+}
+
+li:hover {
+    background-color: #f5f5f5;
+}
+
+a {
+    color: #858c94;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.Achievements
+{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: x-large;
+}
+.Ach
+{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    display: grid;
+    flex-direction: column;
+    
+}
+.Achi header
+{
+    height: 40px;
+    width: 100%;
+   
+}
+.container
+{
+   
+    width: 300px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 10px 10px ;
+    margin: 10px; /* Add some margin between containers */
+    text-align: center;
+    transition: transform 0.5s ease;
+}
+
+
+
+.Ach {
+    display: flex;
+   
+    
+}
+
+
+
+/* Optional: Adjust the width of each container if needed */
+.container {
+    flex: 0 0 auto; /* Let the container grow and shrink as needed */
+}
+.Achi
+{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.Achievements
+{
+    padding-bottom: 20px;
+    margin: 0;
+  
+}
+.container img {
+    max-width: 300px; /* Make the image responsive */
+    height: 200px; /* Maintain aspect ratio */
+}
+
+.footer
+{
+    height: 500px;
+    margin-top: 20PX;
+    background-color: #27334f;
+    display: flex;
+    color: #ddd;
+}
+.left-footer
+{
+    padding-left: 200px;
+ width: 40%;
+}
+ #foot
+{
+    text-align: center;
+    justify-content: center;
+    font-size: xx-large;
+    align-items: center;
+    color: #f8f8f8;
+}
+
+.right-footer
+{
+width: 40%;
+padding-left: 10px;
+}
+#end
+
+{
+    background-color: #1d2a46;
+    text-align: center;
+    font-size: large;
+    color: #f5f5f5;
+    height: 30px;
+}
